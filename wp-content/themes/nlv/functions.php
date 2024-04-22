@@ -72,3 +72,23 @@ if ( ! function_exists( 'pimery_register_nav_menu' ) ) {
 	}
 	add_action( 'after_setup_theme', 'pimery_register_nav_menu', 0 );
 }
+
+
+/**
+ * Adding custom class to li nav_menu 
+ */
+
+ function add_li_class($classes, $item, $args) {
+    $classes[] = 'nav-item';
+    return $classes;
+}
+add_filter('nav_menu_css_class', 'add_li_class', 1, 3);
+
+/**
+ * Adding custom class to a nav_menu 
+ */
+function add_a_class($atts, $item, $args) {
+    $atts['class'] = 'nav-link';
+    return $atts;
+}
+add_filter('nav_menu_link_attributes', 'add_a_class', 1, 3);

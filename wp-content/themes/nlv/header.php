@@ -26,9 +26,10 @@
                 <span class="oi oi-menu"></span> Menu
             </button>
 
+            <div class="collapse navbar-collapse" id="ftco-nav">
             <?php
             wp_nav_menu($args = array(
-                'menu'                => "collapse navbar-collapse", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
+                'menu'                => "navbar-collapse", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
                 'menu_class'        => "navbar-nav ml-auto", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
                 'menu_id'            => "navbar-nav-id", // (string) The ID that is applied to the ul element which forms the menu. Default is the menu slug, incremented.
                 'container'            => "ul", // (string) Whether to wrap the ul, and what to wrap it with. Default 'div'.
@@ -37,7 +38,6 @@
                 'theme_location'    => "headmenu", // (string) Theme location to be used. Must be registered with register_nav_menu() in order to be selectable by the user.
             ));
             ?>
-            <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto" id="navbar-nav-id">
                     <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="rooms.html" class="nav-link">Our Rooms</a></li>
