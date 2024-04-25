@@ -61,8 +61,6 @@
 	</div>
 </footer>
 
-
-
 <!-- loader -->
 <div id="ftco-loader" class="show fullscreen">
 	<svg class="circular" width="48px" height="48px">
@@ -72,10 +70,6 @@
 </div>
 
 <?php wp_footer(); ?>
-
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-
 
 </body>
 

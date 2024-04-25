@@ -52,9 +52,9 @@ function nlv_theme_scripts() {
     wp_enqueue_script( 'aos', URL_DERECTORY_JS . 'aos.js', array(), HOTEL_VERSION, true );
     wp_enqueue_script( 'jquery.animateNumber.min', URL_DERECTORY_JS . 'jquery.animateNumber.min.js', array(), HOTEL_VERSION, true );
     wp_enqueue_script( 'bootstrap-datepicker', URL_DERECTORY_JS . 'bootstrap-datepicker.js', array(), HOTEL_VERSION, true );
-    wp_enqueue_script( 'scrollax.min', URL_DERECTORY_JS . 'scrollax.min.js', array(), '0.2', true );
-    wp_enqueue_script( 'google-map', URL_DERECTORY_JS . 'google-map.js', array(), '0.2', true );
-    wp_enqueue_script( 'main', URL_DERECTORY_JS . 'main.js', array(), '0.2', true );
+    wp_enqueue_script( 'scrollax.min', URL_DERECTORY_JS . 'scrollax.min.js', array(), HOTEL_VERSION, true );
+    wp_enqueue_script( 'google-map', URL_DERECTORY_JS . 'google-map.js', array(), HOTEL_VERSION, true );
+    wp_enqueue_script( 'main', URL_DERECTORY_JS . 'main.js', array(), HOTEL_VERSION, true );
 
 }
 add_action( 'wp_enqueue_scripts', 'nlv_theme_scripts' );
@@ -83,6 +83,7 @@ if ( ! function_exists( 'pimery_register_nav_menu' ) ) {
     return $classes;
 }
 add_filter('nav_menu_css_class', 'add_li_class', 1, 3);
+
 
 /**
  * Adding custom class to a nav_menu 
