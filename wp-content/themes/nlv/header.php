@@ -48,7 +48,7 @@
         <!-- END nav -->
         <div class="hero">
             <section class="home-slider owl-carousel">
-                <div class="slider-item" style="background-image:url(<?php echo URL_IMG; ?>bg_2.jpg);">
+                <div class="slider-item" style="background-image:url(<?php echo URL_IMG; ?>IMG_0417s-1mbs-light-scaled.jpg);">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row no-gutters slider-text align-items-center justify-content-end">
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slider-item" style="background-image:url(<?php echo URL_IMG; ?>bg_1.jpg);">
+                <div class="slider-item" style="background-image:url(<?php echo URL_IMG; ?>IMG_0314_edited_s.jpg);">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row no-gutters slider-text align-items-center justify-content-end">
@@ -80,7 +80,7 @@
     } else {
     ?>
         <!-- END nav -->
-        <div class="hero-wrap" style="background-image: url('<?php echo URL_IMG; ?>bg_3.jpg');">
+        <div class="hero-wrap" style="background-image: url('<?php echo URL_IMG; ?>IMG_0417s-1mbs-light-scaled.jpg');">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row no-gutters slider-text d-flex align-itemd-center justify-content-center">

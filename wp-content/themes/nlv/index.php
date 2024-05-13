@@ -31,12 +31,10 @@
 										<div class="select-wrap">
 											<div class="icon"><span class="ion-ios-arrow-down"></span></div>
 											<select name="" id="" class="form-control">
-												<option value="">Suite</option>
-												<option value="">Family Room</option>
-												<option value="">Deluxe Room</option>
-												<option value="">Classic Room</option>
-												<option value="">Superior Room</option>
-												<option value="">Luxury Room</option>
+												<option value="">Studio</option>
+												<option value="">One bedroom</option>
+												<option value="">Two Bedroom</option>
+
 											</select>
 										</div>
 									</div>
@@ -118,18 +116,6 @@
 					</div>
 					<div class="media-body">
 						<h3 class="heading mb-3">Transfer Services</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-md px-md-1 d-flex align-self-stretch ftco-animate">
-				<div class="media block-6 services py-4 d-block text-center">
-					<div class="d-flex justify-content-center">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-spa"></span>
-						</div>
-					</div>
-					<div class="media-body">
-						<h3 class="heading mb-3">Suits &amp; SPA</h3>
 					</div>
 				</div>
 			</div>
